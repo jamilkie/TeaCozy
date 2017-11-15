@@ -17,7 +17,6 @@ header img{
 }
 
 nav {
-  border: 1px solid white;
   text-align: right;
   width: 100%;
 }
@@ -43,7 +42,7 @@ nav li {
   width: 100%;
   background-color: black;
   z-index: 10;
-  border: 3px solid green;
+  border-bottom: 1px solid white;
 }
 
 /*Contents Section*/
@@ -63,7 +62,7 @@ nav li {
   position: relative;
 }
 
-h4, h2 {
+h4, h2, h5, h3 {
   font-family: Helvetica;
   font-weight: bold;
   color: seashell;
@@ -74,14 +73,13 @@ h4, h2 {
   text-align: center;
   background-color: black;
   width: 1200px;
-  z-index: 15;
+  z-index: 5;
 }
 
 .column.middle {
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
-  border: 5px solid green;
 }
 
 .month {
@@ -97,7 +95,6 @@ h4, h2 {
   width: 1000px;
   padding-top: 105px;
   background-color: black;
-  border: 3px solid blue;
 }
 
 .teatop img, .teabottom img {
@@ -117,7 +114,6 @@ h4, h2 {
   position: absolute;
   text-align: center;
   width: 300px;
-  border: 1px solid blue;
   padding-top: 10px;
   margin: 0 auto;
 }
@@ -126,7 +122,6 @@ h4, h2 {
   position: absolute;
   text-align: center;
   width: 300px;
-  border: 1px solid blue;
   padding-top: 10px;
   margin: 0 auto;
 }
@@ -135,7 +130,6 @@ h4, h2 {
   position: absolute;
   text-align: center;
   width: 300px;
-  border: 1px solid blue;
   padding-top: 10px;
   margin: 0 auto;
 }
@@ -148,7 +142,6 @@ h4, h2 {
   position: absolute;
   text-align: center;
   width: 300px;
-  border: 1px solid blue;
   padding-top: 10px;
   margin: 0 auto;
 }
@@ -157,20 +150,92 @@ h4, h2 {
   padding-left: 18px;
 }
 
-.ave {
-  border: 1px solid white;
-}
-
-.bedford {
-  border: 1px solid white;
-}
 
 .bedford h4 {
   position: absolute;
   text-align: center;
   width: 300px;
   padding-left: 18px;
-  border: 1px solid blue;
   padding-top: 10px;
   margin: 0 auto;
 }
+
+.column.bottom {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 300px;
+}
+
+.column.bottom h2{
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+.column.bottom img {
+  height: 500px;
+  width: 1200px;
+  position: absolute;
+  padding-top: 500px;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.left {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+.middle {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.right {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+
+.teacozy {
+  height: 200px;
+  width: 100%
+  position: absolute;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.left h3 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.middle h3{
+  margin-top: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.right h3 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+/*Footer Section*/
