@@ -239,3 +239,11 @@ h4, h2, h5, h3 {
 }
 
 /*Footer Section*/
+
+p {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: seashell;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
