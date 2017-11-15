@@ -1,5 +1,5 @@
 html {
-  background-color: rebeccapurple;
+  background-color: black
 }
 
 /*Header Section*/
@@ -42,7 +42,135 @@ nav li {
   height: 69px;
   width: 100%;
   background-color: black;
+  z-index: 10;
   border: 3px solid green;
 }
 
 /*Contents Section*/
+
+
+.column.top {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.column.top img {
+  z-index: 5;
+  width: 1200px;
+  padding-top: 70px;
+  position: relative;
+}
+
+h4, h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: seashell;
+}
+
+.our {
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  z-index: 15;
+}
+
+.column.middle {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  border: 5px solid green;
+}
+
+.month {
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  width: 1000px;
+}
+
+.teatop {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  padding-top: 105px;
+  background-color: black;
+  border: 3px solid blue;
+}
+
+.teatop img, .teabottom img {
+  height: 200px;
+  width: 300px;
+}
+
+.teabottom {
+  position: relative;
+  display: flex;
+  max-width: 1000px;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.berry h4 {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  border: 1px solid blue;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.rum h4{
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  border: 1px solid blue;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.donut h4{
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  border: 1px solid blue;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.ave img {
+  padding-right: 18px;
+}
+
+.ave h4 {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  border: 1px solid blue;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.bedford img {
+  padding-left: 18px;
+}
+
+.ave {
+  border: 1px solid white;
+}
+
+.bedford {
+  border: 1px solid white;
+}
+
+.bedford h4 {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  padding-left: 18px;
+  border: 1px solid blue;
+  padding-top: 10px;
+  margin: 0 auto;
+}
